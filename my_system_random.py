@@ -1,3 +1,5 @@
-class A():
-    def __init__(self):
-        print("OK!")
+def make():
+    s = ''
+    for i in range(10):
+        s += str(i)
+    return s
